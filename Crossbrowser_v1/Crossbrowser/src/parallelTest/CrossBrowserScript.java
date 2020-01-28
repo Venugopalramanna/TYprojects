@@ -31,6 +31,7 @@ public class CrossBrowserScript {
 			driver = new FirefoxDriver();
 		}
 		//Check if parameter passed as 'chrome'
+		//cross browser
 		else if(browser.equalsIgnoreCase("chrome")){
 			//set path to chromedriver.exe
 			System.setProperty("webdriver.chrome.driver",".\\chromedriver.exe");
